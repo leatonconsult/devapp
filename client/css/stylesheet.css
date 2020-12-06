@@ -1,0 +1,27 @@
+jtr-body {
+    display: block;
+    top: 75px;
+    position: relative;
+}
+
+.blog-footer {
+  padding: 2.5rem 0;
+  text-align: center;
+  border-top: .05rem solid #101113;
+  margin-top: 100px;
+}
+.blog-footer p:last-child {
+  margin-bottom: 0;
+}
+
+.jtr-date {
+    text-decoration: underline;
+}
+
+.jtr-alert {
+    top: 0px;
+    right: 0px;
+    margin: 10px;
+    z-index: 10000;
+    position: fixed;
+}

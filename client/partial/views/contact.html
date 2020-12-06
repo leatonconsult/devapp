@@ -1,0 +1,66 @@
+<div>
+    <div class="alert alert-danger alert-dismissible fade jtr-alert" role="alert">
+        Please ensure all fields have been correctly entered
+        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+
+    <jtr-navbar></jtr-navbar>
+    <jtr-body>
+        <div class="container">
+            <div id="contactJumbotron" class="jumbotron" style="height: 400px; background-image: url('/images/homeJumbo.jpg');"></div>
+        </div>
+
+        <div class="container">
+            <h1>Contact Us</h1>
+
+            <form>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputFullName">Full Name</label>
+                        <input type="text" class="form-control" id="inputFullName" placeholder="Full Name">
+                    </div>
+
+                    <div class="form-group col-md-6">
+                        <label for="inputEmail">Email</label>
+                        <input type="email" class="form-control" id="inputEmail" placeholder="Email">
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="inputPhone">Phone</label>
+                        <input type="text" class="form-control" id="inputPhone">
+                    </div>
+    
+                    <div class="form-group col-md-6">
+                        <label for="inputService">Service</label>
+                        <select id="inputService" class="form-control">
+                            <option selected>IT Services</option>
+                            <option>Motorsport - VBOX</option>
+                            <option>Motorsport - Results</option>
+                            <option>Motorsport - Other</option>
+                        </select>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="form-group col-md-12">
+                        <label for="inputMessage">Message</label>
+                        <textarea class="form-control" id="inputMessage"></textarea>
+                    </div>
+                </div>
+
+                <div class="form-row">
+                    <div class="col-md-4"></div>
+
+                    <button id="contactSubmit" type="submit" class="btn btn-primary col-md-4">Submit</button>
+                    
+                    <div class="col-md-4"></div>
+                </div>
+            </form>
+        </div>
+    </jtr-body>
+    <jtr-footer></jtr-footer>
+</div>
